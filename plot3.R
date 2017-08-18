@@ -13,4 +13,4 @@ with(subset, {
 legend("topright", col = c("black", "red", "blue"),
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
        lty = 1, lwd = 1)
-devoff()
+dev.off()
