@@ -6,4 +6,4 @@ subset <- subset(data, date >= as.Date("2007-02-01") & date < as.Date("2007-02-0
 png(filename = "plot1.R", width = 480, height = 480)
 hist(subset$Global_active_power, main = "Global Active Power",
      col = "red", xlab = "Global Active Power (kilowatts)")
-devoff()
+dev.off()
